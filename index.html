@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+  <!-- <span class="whatapp_img"><img src="img/whatapp01.png " class="img-fluid" style="width: 40px; height: 40px;"></span> -->
+
+
+  <div class="header">
+    <div class="container">
+      <navbar class="nav">
+        <div class="menu_container d-md-block menu_left d-none">
+          <ul class="d-flex p-0 m-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="contect.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <div class="menu_container d-md-block ">
+          <div class="menu_container d-md-block d-none d-md-block">
+            <ul class="d-flex p-0 m-0">
+
+              <!-- <li><a href="partner.html">partner </li> -->
+              <li><a href="people.html">Team </a>
+
+              </li>
+              <li><a href="#">Services</a>
+
+                <div class="services_plan">
+                  <ul>
+                    <li><a href="services_base_plan.html">Base Plan</a></li>
+                    <li><a href="services_3dmodal.html">3D Modal</a></li>
+                    <li><a href="services_visual_relait_plan.html">Virtul Reality Plan</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span class="toggle d-md-none"><i class="fa-solid fa-bars"></i></span>
+      </navbar>
+    </div>
+
+    <div class="sidebar d-md-none ">
+      <ul class="sidebar_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contect.html">Contact </a></li>
+        <li><a href="partner.html">Partner</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class=" position-relative" style="height:680px; width:100vw!important;">
+    <div id="particles-js" class=" position-absolute top-0 start-0 w-100 h-100"
+      style="z-index: 1; background-color: rgba(0, 0,0 ,0.4);"> </div>
+
+    <div id="carouselExampleInterval" class="carousel slide position-relative" data-bs-ride="carousel">
+
+
+      <div class="carousel-inner" style="height:680px" ;>
+        <div class="carousel-item active" style="height:680px" ; data-bs-interval="10000">
+          <img src="img/bg1.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" style="height:680px;" data-bs-interval="2000">
+          <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item " style="height:680px;">
+          <img src="img/bg3.jpg" class="d-block w-100 h-100 " alt="...">
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3744450/particles.js"></script>
+  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3744450/particles.min.js"></script>
+
+
+
+
+  <!-- <section class="banner_section">
+    <div class="container-fluid">
+      <div class="row">
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class="overlap_section">
+            <div class="overlap_content ">
+              <form action="">
+                <input type="text" name="name" id="f_name" placeholder="NAME">
+                <input type="email" name="email" id="email" placeholder="EMAIL">
+                <input type="tel" name="phone" id="phone" placeholder="PHONE">
+                <textarea id="overlap_textaera" cols="19" rows="10" placeholder="Comment Plz"></textarea>
+              
+                <button class="submit_btn text-center">Submit</button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>  -->
+
+  <div id="myModal" class="modal fade mt-5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <h5 class="modal-title">Subscribe our Newsletter</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        <div class="modal-body">
+          <section class="overlap_section">
+            <div class="overlap_content ">
+              <form action="https://formspree.io/f/mbjvqjgn" method="post" id="contect">
+                <input type="text" name="name" id="f_name" placeholder="NAME" required>
+                <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                <input type="tel" name="phone" id="phone" placeholder="PHONE" required>
+                <textarea id="overlap_textaera" cols="10" rows="6" placeholder="Comment Plz"></textarea>
+
+                <button type="submit" class="submit_btn text-center">Submit</button>
+              </form>
+            </div>  
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <section class="about_container mt-5 mb-3">
+
+    <div class="about_page pt-4 pb-4">
+      <div class="container">
+        <div class="row container mx-auto">
+          <div class="col-md-6 my-auto">
+            <div class="about_text  wow animate__animated animate__zoomIn">
+              <h> About Us </h>
+
+              <!-- <p>House of Dreams is an affordable housing planning company dedicated to providing affordable and
+                customized housing solutions to middle-class people. Our focus is on addressing common Issues faced by
+                homeowners such as sunlight, air circulation, ventilation, cracks, instability, and durability. </p>
+              <p> We conduct thorough site analyses to understand the surroundings and how they affect the house, which
+                helps us propose suitable plans for our clients. Our offerings include 3D models of the house and
+                virtual reality experiences to help clients visualize their dream homes before construction. At House of
+                Dreams, we strive to turn our clients' housing dreams into reality. </p> -->
+
+              <p>House of Dreams is a dedicated affordable housing planning company specializing in custom solutions for
+                the middle class. We address common homeowner issues like sunlight, ventilation, stability, and
+                durability. Through in-depth site analysis, we create tailored plans. Our services include 3D models and
+                virtual reality experiences for clients to visualize their dream homes. We're committed to transforming
+                housing dreams into reality.</p>
+
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class=" mx-auto mt-5 wow animate__animated animate__zoomIn about_img ">
+              <img src="img/about_img.jpeg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="allmisstion_page">
+    <!-- <div class="container ">
+      <div class="content_center p-3  text-center  wow animate__animated  animate__slideInDown">
+        <img src="img/hod1.jpeg" class="img-fluid">
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="left_conn wow animate__animated animate__slideInLeft">
+            <div class="left">
+              <span class="icon"><i class="fa-solid fa-gear"></i></span>
+              <h>About HOD</h>
+              <p>Assist the incubates in creating a sustainable, scalable & profitable business model
+                providing physical infrastructure and value-added support services.Conduct events and
+                inspirational programs providing training and mentorship to entrepreneurs.</p>
+            </div>
+
+            <div class="left">
+              <span class="icon"><i class="fa-solid fa-pen-to-square"></i></span>
+              <h>OUR STRATEGY</h>
+              <p>While an idea is a backbone of establishing a construction, guidance and expert management is the key
+                to sustaining it; it is important to leverage knowledge to avoid pitfalls and develop an effective
+                growth strategy.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="center mx-auto wow animate__animated animate__zoomIn">
+
+            <img src="img/1.png" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="right  wow animate__animated animate__slideInRight">
+            <span class="icon"><i class="fa-solid fa-code"></i></span>
+            <h>VISION</h>
+            <p>The promising startup, HOD, is committed to addressing both current and emerging challenges in the
+              construction industry by providing comprehensive support in the form of knowledge, expert guidance,
+              mentorship, and effective problem-solving solutions.
+            </p>
+          </div>
+
+          <div class="right wow animate__animated animate__slideInRight">
+            <span class="icon"><i class="fa-solid fa-folder"></i></span>
+            <h>MISSION</h>
+            <p>Individuals at HOD will have the chance to develop their prototypes and put them into action after
+              conducting a thorough analysis on their part. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work_proses_container mt-5">
+    <div class="workproses_page pt-5 pb-5">
+      <div class="container pt-5 pb-5">
+        <div class="row container">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="parallax_img pt-4 pb-4">
+    <div class="width_100 pt-5 pb-4">
+      <div class="container">
+        <div class="row container mx-auto">
+          <div class="col-3">
+            <div class="parallax_1 text-center color_white wow animate__animated animate__zoomIn ">
+              <h class="counter">2023</h>
+
+              <p>Since We Started</p>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="parallax_2 text-center color_white wow animate__animated animate__zoomIn">
+              <p>We Accelerate performance by applying new age technology such as AR/VR and it's applications not only
+                to the prototypes but on the ideology of startups as well.</p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="parallax_3 text-center color_white wow animate__animated animate__zoomIn">
+              <h class="counter">5</h>
+              <h style="font-style: 30px;">+</h>
+              <p>Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="stay_connected pt-5 pb-5 animate__animated animate__slideInUp">
+    <div class="container color-white pt-5 pb-5 ">
+      <form class=" stay_conn justify-content-center">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="C_name" placeholder="Company">
+        <input type="email" id="email" placeholder="Email">
+        <input type="submit" value="Subscribe" id="stay_btn">
+      </form>
+    </div>
+  </section>
+
+
+  <section class="footer_section pt-5 pb-5 mt-3 mb-3">
+    <div class="container d-flex justify-content-center">
+      <div class="footer_center text-center">
+        <div class="footer_icon mb-3">
+          <span><i class="fa-brands fa-linkedin-in"></i></span>
+          <span> <i class="fa-brands fa-instagram"></i> </span>
+          <span> <i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+        </div>
+        <h5>Where imagination meets reality</h5>
+        <h5>houseofddream999@gmail.com </h5>
+        <h5>+91 8499903166 , 8938934294</h5>
+        <h5>jaipur rajasthan, 302026</h5>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <section class="contact_container pt-5 pb-5">
+
+        <div class="heading text-center mb-5"><h2>Contact Details</h2></div>
+        <div class="row container mx-auto">
+          <div class="col-md-6">
+            <form class="contect_details">
+              <div class="col-12 spann">
+                <input type="text" id="fname" placeholder=" NAME">
+              </div>
+              <div class="col-12 spann">
+                <input type="email" id="email" placeholder=" EMAIL">
+              </div>
+              <div class="col-12 spann">
+                <input type="tel" id="PHONE" placeholder=" PHONE">
+              </div>
+              <div class="col-12 spann">
+                <input type="text" id="subject" placeholder=" SUBJECT">
+              </div>
+    
+             
+              <div class="col-12 ">
+                <textarea cols="10" rows="7" placeholder="Enter Message"></textarea>
+              </div>
+    
+              <button class="btn">Submit</button>
+            </form>
+          </div>
+    
+          <div class="col-md-6 d-flex align-items-center justify-content-center flex-column ">
+    
+            <div>
+              <h class="light_text">Would you like to start a project with us? We are 24/7 available. Please fill your query, we will get back to you asap</h>
+
+            </div>
+    
+            <h class="bold_text">Our Office In Jaipur</h>
+
+            <div class="content_text">
+              <div class="location_box">
+                <div class="d-flex align-items-center">
+                  <span class="contact_icon"> <i class="fa-solid fa-location-dot"></i></span>
+                  <span class="location_text">
+                    <h5>Location:</h5>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </span>
+                </div>
+              </div>
+    
+              <div class="content_text">
+                <div class="d-flex align-items-center">
+                  <span class="contact_icon"> <i class="fa-solid fa-location-dot"></i></span>
+                  <span class="location_text">
+                    <h5>Location:</h5>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </span>
+                </div>
+              </div>
+              <div class="content_text">
+                <div class="d-flex align-items-center">
+                  <span class="contact_icon"> <i class="fa-solid fa-location-dot"></i></span>
+                  <span class="location_text">
+                    <h5>Location:</h5>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+
+  <!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3744450/particles.js"></script> -->
+  <!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3744450/particles.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- <script>
+    setTimeout(function () {
+      $("#exampleModal").modal('show');
+    }, 2000);
+  </script> -->
+
+  <!-- <script>
+ $(document).ready(function (){
+    $(".submit_btn").click(function (){
+      $("#exampleModal").css("visibility","hidden");
+    })
+  })
+</script>  -->
+
+  <!-- <script>
+  $(document).ready(function (){
+    $(".submit_btn").click(function (){
+      $(".modal-backdrop").css("visibility","hidden");
+    })
+  })
+</script> -->
+
+  <script>
+    $(document).ready(function () {
+      $("#myModal").modal('show');
+    });
+    $('.submit_btn').click(function () {
+      $("#myModal").modal('hide');
+    });
+    $('.close').click(function () {
+      //alert('d')
+      $("#myModal").modal('hide');
+    });
+  </script>
+
+
+
+  <script>
+
+    $(document).ready(function () {
+      new WOW().init({
+        once: true,
+        duration: 6000
+      });
+    })
+
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $('.counter').counterUp({
+        delay: 2,
+        time: 60
+      });
+    });
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".toggle").click(function () {
+        $(".sidebar").toggle("slow");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        $(".header").toggleClass('nav_bg_change', $(this).scrollTop() > 550);
+      })
+    })
+  </script>
+
+  <script type="text/javascript">
+
+    particlesJS('particles-js',
+
+      {
+        "particles": {
+          "number": {
+            "value": 200,
+            "density": {
+              "enable": true,
+              "value_area": 400
+            }
+          },
+          "color": {
+            "value": "#000"
+          },
+          "shape": {
+            "type": "",
+            "stroke": {
+              "width": 0,
+              "color": ""
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 30,
+              "height": 30
+            }
+          },
+          "opacity": {
+            "value": 0.2,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 4,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 2,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed":90,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 140,
+            "color": "#ffffff",
+            "opacity": 0.2,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 7,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "attract": {
+              "enable": false,
+              "rotateX": 1500,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 300,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 100
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true,
+        "config_demo": {
+          "hide_card": false,
+          "background_color": "",
+          "background_image": "",
+          "background_position": "50% 50%",
+          "background_repeat": "no-repeat",
+          "background_size": "cover"
+        }
+      }
+
+    );
+  </script>
+
+
+
+</body>
+
+</html>
